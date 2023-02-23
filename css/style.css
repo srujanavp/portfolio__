@@ -372,7 +372,13 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
-.colorlib-experience,
+.colorlib-experience{
+  padding-top:4em;
+  clear: both;
+  width: 100%;
+  display: block;
+}
+  
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -381,12 +387,15 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
+    .colorlib-experience{
+      padding-top: 0.3em;
+      padding-bottom: 4em;
+    }
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -1158,8 +1167,9 @@ body.offcanvas {
         border: 1px solid #2c98f0 !important; }
 
 .btn {
+  margin-top: 50px;
   margin-right: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   font-family: "Quicksand", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
